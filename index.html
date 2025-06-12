@@ -1,1 +1,90 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" class="filter transition duration-500">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+
+<body class="bg-white">
+  <main class="w-full max-w-2xl mx-auto font-serif px-4 my-4">
+    <!-- header -->
+    <header class="my-3">
+      <div class="flex justify-center items-center gap-4">
+        <h1 class="text-3xl font-bold">Jonathan Alves</h1>
+        <button onclick="document.documentElement.classList.toggle('invert')" class="">
+          <img src="images/dark.svg" alt="dark mode icon" class="w-5 h-5 hover:scale-110">
+        </button>
+      </div>
+      <nav class="flex flex-wrap justify-center items-center gap-x-4 text-lg">
+        <a href="mailto:alves.b.jon@gmail.com" class="inline-flex items-center gap-1 underline hover:text-blue-500">
+          <img src="images/mail.svg" alt="mail icon" class="w-5 h-5">
+          alves.b.jon@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/alves-b-jonathan/" target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-1 underline hover:text-blue-500">
+          <img src="images/linkedin.svg" alt="linkedin logo" class="w-5 h-5">
+          LinkedIn
+        </a>
+        <a href="https://github.com/jon-b-alves" target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-1 underline hover:text-blue-500">
+          <img src="images/github.svg" alt="github logo" class="w-5 h-5">
+          GitHub
+        </a>
+        <a href="resume.pdf" target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-1 underline hover:text-blue-500">
+          <img src="images/resume.svg" alt="resume icon" class="w-5 h-5">
+          Resume
+        </a>
+      </nav>
+    </header>
+    <!-- About me -->
+    <section class="border-2 border-black shadow-md shadow-gray-400 rounded-md p-2 my-3">
+      <h2 class="text-lg font-bold mb-3">About Me</h2>
+      <p>
+        Hi, I'm Jonathan Alves, a software developer who is passionate about technology. I create fast, scalable, and
+        user-friendly applications. Check out my projects or contact me if you would like to collaborate.
+      </p>
+    </section>
+    <!-- Projects -->
+    <section class="border-2 border-black shadow-md shadow-gray-400 rounded-md p-2 my-3">
+      <h2 class="text-lg font-bold">Projects</h2>
+      <article class="my-3">
+        <a href="https://github.com/jon-b-alves/TriTracker.git" target="_blank" rel="noopener noreferrer"
+          class="underline hover:text-blue-500">TriTracker</a>
+        <p>
+          Statistical tracker and display board for triathlon athletes.
+        </p>
+      </article>
+      <article class="my-3">
+        <a href="https://github.com/jon-b-alves/DiscordBot.git" target="_blank" rel="noopener noreferrer"
+          class="underline hover:text-blue-500">Discord Bot</a>
+        <p>Community focused discord bot with over a dozen commands.</p>
+      </article>
+      <article class="">
+        <a href="https://github.com/jon-b-alves/TodoCLI" target="_blank" rel="noopener noreferrer"
+          class="underline hover:text-blue-500">TodoCLI</a>
+        <p>Terminal based todo application for Windows.</p>
+      </article>
+    </section>
+    <!-- Scripts -->
+    <section class="border-2 border-black shadow-md shadow-gray-400 rounded-md p-2">
+      <h2 class="text-lg font-bold mb-3">Scripts</h2>
+      <article class="my-3">
+        <a href="https://github.com/jon-b-alves/SudokuSolver.git" target="_blank" rel="noopener noreferrer"
+          class="underline hover:text-blue-500">Sudoku Solver</a>
+        <p>Solves an incomplete sudoku board using a backtracking algorithm.</p>
+      </article>
+      <article class="my-3">
+        <a href="https://github.com/jon-b-alves/DownloadsCleaner.git" target="_blank" rel="noopener noreferrer"
+          class="underline hover:text-blue-500">Downloads Cleaner</a>
+        <p>Removes all content inside your Windows download directory.</p>
+      </article>
+    </section>
+
+  </main>
+</body>
+
+</html>
